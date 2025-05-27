@@ -82,7 +82,9 @@
       <a name="facing" val="south"/>
       <a name="label" val="A"/>
     </comp>
-    <comp lib="1" loc="(1000,390)" name="OR Gate"/>
+    <comp lib="1" loc="(1000,390)" name="OR Gate">
+      <a name="inputs" val="4"/>
+    </comp>
     <comp lib="1" loc="(240,640)" name="NOT Gate"/>
     <comp lib="1" loc="(260,230)" name="AND Gate"/>
     <comp lib="1" loc="(260,360)" name="OR Gate"/>
@@ -93,10 +95,18 @@
     <comp lib="1" loc="(550,100)" name="NOT Gate">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="1" loc="(750,210)" name="AND Gate"/>
-    <comp lib="1" loc="(750,340)" name="AND Gate"/>
-    <comp lib="1" loc="(750,470)" name="AND Gate"/>
-    <comp lib="1" loc="(760,620)" name="AND Gate"/>
+    <comp lib="1" loc="(750,210)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(750,340)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(750,470)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(760,620)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
     <wire from="(1000,390)" to="(1060,390)"/>
     <wire from="(140,100)" to="(140,250)"/>
     <wire from="(140,250)" to="(140,380)"/>
