@@ -22,8 +22,8 @@
   <lib desc="#BFH-Praktika" name="9"/>
   <lib desc="#Input/Output-Extra" name="10"/>
   <lib desc="#Soc" name="11"/>
-  <lib desc="file#..\Addition.circ" name="12"/>
-  <lib desc="file#..\B_input_logic\B_input_logic.circ" name="13"/>
+  <lib desc="file#..\B_input_logic\B_input_logic.circ" name="12"/>
+  <lib desc="file#..\Addition.circ" name="13"/>
   <main name="arithmetic_unit_1bit"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -94,8 +94,8 @@
       <a name="appearance" val="classic"/>
       <a name="label" val="S1"/>
     </comp>
-    <comp lib="12" loc="(440,110)" name="FullAdder"/>
-    <comp lib="13" loc="(380,200)" name="B_input_logic_1bit"/>
+    <comp lib="12" loc="(380,200)" name="B_input_logic_1bit"/>
+    <comp lib="13" loc="(440,110)" name="FullAdder"/>
     <wire from="(140,150)" to="(140,240)"/>
     <wire from="(140,240)" to="(160,240)"/>
     <wire from="(160,70)" to="(260,70)"/>
@@ -191,8 +191,8 @@
       <a name="appearance" val="classic"/>
       <a name="label" val="C_in"/>
     </comp>
-    <comp lib="12" loc="(700,220)" name="CarryLookAhead"/>
-    <comp lib="13" loc="(430,320)" name="B_input_logic_nbit"/>
+    <comp lib="12" loc="(430,320)" name="B_input_logic_nbit"/>
+    <comp lib="13" loc="(700,220)" name="CarryLookAhead"/>
     <wire from="(130,270)" to="(130,420)"/>
     <wire from="(130,420)" to="(210,420)"/>
     <wire from="(150,250)" to="(150,400)"/>
