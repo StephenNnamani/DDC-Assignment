@@ -22,8 +22,8 @@
   <lib desc="#BFH-Praktika" name="9"/>
   <lib desc="#Input/Output-Extra" name="10"/>
   <lib desc="#Soc" name="11"/>
-  <lib desc="file#arithmetic_unit\arithmetic_unit.circ" name="12"/>
-  <lib desc="file#Multiplexer\DDC_Project_Multiplexer.circ" name="13"/>
+  <lib desc="file#Multiplexer\DDC_Project_Multiplexer.circ" name="12"/>
+  <lib desc="file#arithmetic_unit\arithmetic_unit.circ" name="13"/>
   <lib desc="file#Logical_Unit\Logicial_Unit_fourbit.circ" name="14"/>
   <main name="ALU_1bit"/>
   <options>
@@ -82,11 +82,13 @@
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="C_out"/>
+      <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(840,240)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="G"/>
+      <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(90,230)" name="Pin">
       <a name="appearance" val="classic"/>
@@ -100,8 +102,8 @@
       <a name="appearance" val="classic"/>
       <a name="label" val="B"/>
     </comp>
-    <comp lib="12" loc="(510,170)" name="arithmetic_unit_1bit"/>
-    <comp lib="13" loc="(800,240)" name="MyMultiplexer"/>
+    <comp lib="12" loc="(800,240)" name="MyMultiplexer"/>
+    <comp lib="13" loc="(510,170)" name="arithmetic_unit_1bit"/>
     <comp lib="14" loc="(510,320)" name="Logicial_Unit_1bit"/>
     <wire from="(120,170)" to="(120,230)"/>
     <wire from="(120,170)" to="(290,170)"/>
@@ -144,26 +146,31 @@
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="C_out"/>
+      <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(1360,380)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="G0"/>
+      <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(1360,410)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="G1"/>
+      <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(1360,440)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="G2"/>
+      <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(1360,470)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="G3"/>
+      <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(270,60)" name="Pin">
       <a name="appearance" val="classic"/>
@@ -216,11 +223,11 @@
       <a name="appearance" val="classic"/>
       <a name="label" val="B3"/>
     </comp>
-    <comp lib="12" loc="(700,240)" name="arithmetic_unit_nbit"/>
-    <comp lib="13" loc="(1170,350)" name="MyMultiplexer"/>
-    <comp lib="13" loc="(1170,430)" name="MyMultiplexer"/>
-    <comp lib="13" loc="(1170,510)" name="MyMultiplexer"/>
-    <comp lib="13" loc="(1170,590)" name="MyMultiplexer"/>
+    <comp lib="12" loc="(1170,350)" name="MyMultiplexer"/>
+    <comp lib="12" loc="(1170,430)" name="MyMultiplexer"/>
+    <comp lib="12" loc="(1170,510)" name="MyMultiplexer"/>
+    <comp lib="12" loc="(1170,590)" name="MyMultiplexer"/>
+    <comp lib="13" loc="(700,240)" name="arithmetic_unit_nbit"/>
     <comp lib="14" loc="(700,520)" name="Logical_Unit_fourbit"/>
     <wire from="(1080,580)" to="(1090,580)"/>
     <wire from="(1170,350)" to="(1170,380)"/>

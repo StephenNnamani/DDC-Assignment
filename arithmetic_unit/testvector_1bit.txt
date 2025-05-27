@@ -33,6 +33,7 @@ S1 S0 C_in A B G C_out
 1 1 0 1 0 0 1
 1 1 0 1 1 0 1
 #A transfer (2)
-1 1 1 0 1 0 0
-1 1 1 1 1 1 0
-1 1 1 1 0 1 0
+# carry over: 1 => positive number
+1 1 1 0 1 0 1
+1 1 1 1 1 1 1
+1 1 1 1 0 1 1
