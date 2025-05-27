@@ -183,4 +183,58 @@
     <wire from="(580,340)" to="(640,340)"/>
     <wire from="(580,420)" to="(640,420)"/>
   </circuit>
+  <circuit name="chronogram">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="chronogram"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(110,30)" name="Clock">
+      <a name="label" val="sysclock"/>
+    </comp>
+    <comp lib="0" loc="(140,180)" name="Clock">
+      <a name="label" val="B"/>
+    </comp>
+    <comp lib="0" loc="(240,100)" name="Clock">
+      <a name="facing" val="south"/>
+      <a name="highDuration" val="4"/>
+      <a name="label" val="S0"/>
+      <a name="lowDuration" val="2"/>
+      <a name="phaseOffset" val="1"/>
+    </comp>
+    <comp lib="0" loc="(350,100)" name="Clock">
+      <a name="facing" val="south"/>
+      <a name="highDuration" val="4"/>
+      <a name="label" val="S1"/>
+      <a name="lowDuration" val="4"/>
+      <a name="phaseOffset" val="2"/>
+    </comp>
+    <comp lib="0" loc="(720,250)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Y"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="1" loc="(180,250)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(500,200)" name="AND Gate"/>
+    <comp lib="1" loc="(500,300)" name="AND Gate"/>
+    <comp lib="1" loc="(670,250)" name="OR Gate"/>
+    <wire from="(140,180)" to="(180,180)"/>
+    <wire from="(180,180)" to="(180,220)"/>
+    <wire from="(180,180)" to="(450,180)"/>
+    <wire from="(180,250)" to="(180,280)"/>
+    <wire from="(180,280)" to="(450,280)"/>
+    <wire from="(240,100)" to="(240,220)"/>
+    <wire from="(240,220)" to="(450,220)"/>
+    <wire from="(350,100)" to="(350,320)"/>
+    <wire from="(350,320)" to="(450,320)"/>
+    <wire from="(500,200)" to="(540,200)"/>
+    <wire from="(500,300)" to="(540,300)"/>
+    <wire from="(540,200)" to="(540,230)"/>
+    <wire from="(540,230)" to="(620,230)"/>
+    <wire from="(540,270)" to="(540,300)"/>
+    <wire from="(540,270)" to="(620,270)"/>
+    <wire from="(670,250)" to="(720,250)"/>
+  </circuit>
 </project>
