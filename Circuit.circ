@@ -1076,7 +1076,6 @@
     </comp>
     <comp loc="(1320,380)" name="MyMultiplexer"/>
     <comp loc="(1320,470)" name="MyMultiplexer"/>
-    <comp loc="(1320,470)" name="MyMultiplexer"/>
     <comp loc="(1320,560)" name="MyMultiplexer"/>
     <comp loc="(1320,650)" name="MyMultiplexer"/>
     <comp loc="(890,280)" name="Arithmetic_Unit_4bit"/>
