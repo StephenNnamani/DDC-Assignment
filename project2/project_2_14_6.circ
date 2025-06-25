@@ -768,13 +768,15 @@ end type_architecture;&#13;
     <comp lib="1" loc="(110,190)" name="NOT Gate"/>
     <comp lib="1" loc="(110,240)" name="NOT Gate"/>
     <comp lib="1" loc="(180,170)" name="AND Gate"/>
+    <comp lib="1" loc="(280,240)" name="NOT Gate"/>
     <comp loc="(320,170)" name="DLatch"/>
     <comp loc="(470,170)" name="DLatch"/>
     <wire from="(110,190)" to="(130,190)"/>
     <wire from="(110,240)" to="(210,240)"/>
     <wire from="(180,170)" to="(210,170)"/>
     <wire from="(210,190)" to="(210,240)"/>
-    <wire from="(210,240)" to="(360,240)"/>
+    <wire from="(210,240)" to="(250,240)"/>
+    <wire from="(280,240)" to="(360,240)"/>
     <wire from="(320,170)" to="(360,170)"/>
     <wire from="(360,190)" to="(360,240)"/>
     <wire from="(470,170)" to="(530,170)"/>
